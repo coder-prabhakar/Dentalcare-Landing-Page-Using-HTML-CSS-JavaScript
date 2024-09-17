@@ -150,16 +150,16 @@
     <!----- contact process Section starts ----->
     <section class="contact section" id="contact">
         <h1>MAKE APPOINTMENT</h1>
-        <form action="" class="form">
-            <p>your name:</p>
-            <input type="text" name="name" placeholder="enter your name">
-            <p>your email:</p>
-            <input type="email" name="email" id="" placeholder="enter your email">
-            <p>your number:</p>
-            <input type="number" name="Mobile-number" id="" placeholder="enter your number">
-            <p>appointment date:</p>
-            <input type="date" name="date" id="" placeholder="mm/dd/yyyy --:-- --">
-            <input type="submit" value="make appointment">
+        <form id="form" action="https://sheetdb.io/api/v1/4uxjhsvh4m0jb" method="post">
+            <label for="name">your name :</label>
+            <input type="text" name="data[NAME]" placeholder="Enter Your Name">
+            <label for="email">your email :</label>
+            <input type="email" name="data[EMAIL]" placeholder="Enter Your Email">
+            <label for="mobile-number">phone no :</label>
+            <input type="number" name="data[NUMBER]" placeholder="Enter Your Phone Number">
+            <label for="appointment-date">appointment date:</label>
+            <input type="date" name="data[APPOINTMENT DATE]">
+            <input type="submit" value="Make Appointment">
         </form>
     </section>
     <!----- contact process Section ends ----->
@@ -191,7 +191,6 @@
     </section>
     <!----- footer process Section ends ----->
 
-    
     <script src="https://kit.fontawesome.com/1e0edc022d.js" crossorigin="anonymous"></script>
     <script src="js.js"></script>
 </body>
