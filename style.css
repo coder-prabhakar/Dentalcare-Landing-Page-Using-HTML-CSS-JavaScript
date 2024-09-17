@@ -289,12 +289,13 @@ section:nth-child(even){
 
 /********* contact section starts **********/
 .contact{
+    
     padding: 3rem 0;
 }
 
 .contact h1 { margin-bottom: 20px; }
 
-.contact .form{
+.contact form{
     margin: 0 auto;
     background-color: var(--light-bg);
     width: 340px;
@@ -304,12 +305,13 @@ section:nth-child(even){
     border-radius: 5px;
 }
 
-.contact .form p{
+.contact form label{
     font-size: 1.3rem;
     color: var(--light-color);
 }
 
-.contact .form input {
+.contact form input {
+    text-transform: none;
     height: 40px;
     padding: 8px;
     font-size: 1.2rem;
@@ -319,9 +321,9 @@ section:nth-child(even){
     margin-bottom: 10px;
 }
 
-.contact .form ::placeholder { color: #c0c0c0; }
+.contact form ::placeholder { color: #c0c0c0; }
 
-.contact .form input[type="submit"]{
+.contact form input[type="submit"]{
     padding: 1rem 3rem;
     border-radius: .5rem;
     background-color: var(--blue);
@@ -332,7 +334,7 @@ section:nth-child(even){
     border: none;
     margin-bottom: 0;
 }
-.contact .form input[type="submit"]:hover { background-color: var(--black); }
+.contact form input[type="submit"]:hover { background-color: var(--black); }
 
 /********* footer section starts **********/
 .footer{
